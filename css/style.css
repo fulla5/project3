@@ -1,0 +1,263 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400;500;700&family=Cairo:wght@400;500&display=swap');
+
+
+
+body{
+
+    font-family: 'Cairo Play', cursive;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* <!-- start-headr --> */
+.header{
+    background-color:  blueviolet;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+
+}
+.header p {
+    float: right;
+
+}
+/* <!-- end-headr --> */
+.navbar .btn-outline-success{
+    border-color: blueviolet;
+    color: blueviolet;
+
+}
+
+
+/* <!-- start slider --> */
+
+.carousel-inner{
+    border-bottom:2px solid  rgba(137, 43, 226, 0.361);
+    border-right:2px solid  rgba(137, 43, 226, 0.361);
+
+    
+}
+
+.carousel-inner H5 {
+    font-family: 'Cairo', sans-serif;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px 5px 5px 5px ;
+    border-bottom:2px solid  blueviolet;
+
+    
+}
+
+.carousel-inner p {
+    font-family: 'Cairo', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration:solid  5p   rgb(0, 0, 0);
+    text-align:  center center ;
+    height: 30px;
+    padding: 5px 5px 5px 5px ;
+    border-radius: 20px;
+    display: inline-block;
+    margin: auto;
+    border-bottom:1.5px solid  blueviolet;
+
+}
+
+.carousel-indicators li{
+    border: 50px;
+    height: 6px;
+    border-bottom:2px solid  blueviolet;
+
+   
+}
+/* .ovrlay{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+    position: absolute;
+    z-index: 800;
+ 
+    
+} */
+
+/* <!-- end slider --> */
+
+
+/* <!-- start feutures --> */
+.feutures{
+
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    
+}
+ .feutures i {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(177, 126, 224, 0.288);
+    line-height: 100px;
+    font-size: 20p;
+    border-radius:50px ;
+    border-bottom:2px solid  blueviolet;
+
+ }
+ .feutures h2{
+    display: inline-block;
+    font-size: 40px;
+    margin: 15px;
+    padding: 15px;
+ }
+
+ .feutures h3 {
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+ }
+ .feutures p {
+    color: rgb(129, 75, 129);
+ }
+
+/* <!-- end feutures --> */
+
+
+/* <!-- start our team --> */
+
+.our{
+    background-image: url("../imgs/اه\ اح.jpg");
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-bottom:1px solid  blueviolet;
+
+    
+}
+
+.our .card{
+    padding: 10px;
+    color: #000;
+}
+
+/* <!-- end our team  --> */
+
+/* start stat */
+.stat{
+    background-image: url("../imgs/ewq.jpg");
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-attachment: fixed;
+    text-align: center;
+    border-bottom:2px solid  blueviolet;
+
+    
+}
+
+.stat .overlay{
+    background-color: rgba(49, 1, 71, 0.178);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    padding:50px;
+    
+    
+}
+
+.stat .overlay h3{
+    color: rgb(46, 1, 1);
+    font-size: 40px;
+    padding: 20px 50px;
+    }
+
+.stat .overlay p {
+font-size: 40px;
+color: rgb(255, 0, 0);
+padding: 20px 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+flex-direction:bold;
+}
+
+/* end stat */
+
+/* start customers */
+
+
+.our-customers{
+margin-top:100px;
+background-color: aliceblue;
+line-height: 100px;
+border-bottom:2px solid  blueviolet;
+}
+/* end customers */
+
+/* start recent */
+
+.recent-new h5{
+font-size: 30px;
+
+}
+.recent-new .btn-danger{
+background-color: blueviolet;
+border-color: blueviolet ;
+
+}
+
+.recent-new .btn-danger :hover{
+    background-color: rgb(226, 43, 43);
+}
+
+
+
+/* end recent */
+
+/* start footer */
+
+footer{
+    background-color:blueviolet ;
+    padding: 30px;
+
+}
+footer p {
+    color: azure;
+}
+
+footer h2 {
+    color: azure;
+
+}
+
+
+footer a {
+    color: azure;
+}
+
+footer a :hover {
+    color:rgba(218, 189, 245, 0.511) ;
+    
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* end footer */
+
+.my-footer{
+    background-color: rgb(0, 0, 0);
+}
+
+
